@@ -1,0 +1,12 @@
+
+(cl-text http://colore.oor.net/magma/inverse_semigroup.clif
+
+(cl-imports http://colore.oor.net/magma/semigroup.clif)
+
+(forall (x)
+	(exists (y)
+		(and	(= y (op y (op x y)))
+			(= x (op x (op y x)))))) 
+
+)
+

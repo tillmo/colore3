@@ -1,0 +1,10 @@
+(cl-text http://colore.oor.net/magma/loop.clif
+
+(cl-imports http://colore.oor.net/magma/quasigroup.clif)
+
+(exists (e)
+	(forall (x)
+		(and	(= x (op e x))
+			(= x (op x e)))))
+
+)
