@@ -1,0 +1,10 @@
+(cl-text http://colore.oor.net/ringoids/field.clif
+
+(cl-imports http://colore.oor.net/ringoids/commutative_ring.clif)
+
+(forall (x)
+	(exists (y)
+		(= one (prod x y))))
+
+
+)
